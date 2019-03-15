@@ -1,0 +1,9 @@
+function toggleImage(){
+    imgsrc=document.getElementById("jekyll").src;
+    if(imgsrc.indexOf("drjekyll.jpg")!= -1){
+        document.getElementById("jekyll").src =
+        "mrhyde.jpg";
+    } else {
+        document.getElementById("jekyll").src = "drjekyll.jpg";
+    }
+}
